@@ -10,7 +10,7 @@ CSS = """
 
 
 PROJECT_NAME = """
-# [Layer-Divider-WebUI](https://github.com/jhj0517/Layer-Divider-WebUI.git)
+# [Layer-Divider-WebUI](https://github.com/jhj0517/Layer-Divider-WebUI)
 """
 
 PARAMS_EXPLANATION = """
