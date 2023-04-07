@@ -1,0 +1,4 @@
+models/
+venv/
+outputs/
+modules/__pycache__/
