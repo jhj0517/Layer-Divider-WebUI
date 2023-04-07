@@ -1,7 +1,7 @@
 # Layer-Divider-WebUI
 A Gradio-based browser interface for [SAM](https://github.com/facebookresearch/segment-anything). You can use it as an tool for Layer Divider
 
-![Whisper WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png?token=GHSAT0AAAAAAB7Z7LNTHVCYWNVJDIYQ6TD6ZBQHD7A)
+![Layer-Divider-WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png?token=GHSAT0AAAAAAB7Z7LNTHMXY7USTYXP6UTQSZBQHOCQ)
 
 # Installation and Running
 ## Prerequisite
