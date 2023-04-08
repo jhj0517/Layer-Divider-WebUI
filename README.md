@@ -3,7 +3,7 @@ A Gradio-based browser interface for [SAM](https://github.com/facebookresearch/s
 
 You can use it as an tool for Layer Divider
 
-![Layer-Divider-WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png?token=GHSAT0AAAAAAB7Z7LNSRWWOL4ANM2BXKFFMZBRJX4A)
+![Layer-Divider-WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png)
 
 # Installation and Running
 ## Prerequisite
