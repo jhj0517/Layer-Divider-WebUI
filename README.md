@@ -1,5 +1,7 @@
 # Layer-Divider-WebUI
-A Gradio-based browser interface for [SAM](https://github.com/facebookresearch/segment-anything). You can use it as an tool for Layer Divider
+A Gradio-based browser interface for [SAM](https://github.com/facebookresearch/segment-anything). (Segment-Anything Model)
+
+You can use it as an tool for Layer Divider
 
 ![Layer-Divider-WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png?token=GHSAT0AAAAAAB7Z7LNTY3GG4N2T5DX2VYIMZBRGLZA)
 
