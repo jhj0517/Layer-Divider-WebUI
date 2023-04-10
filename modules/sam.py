@@ -1,5 +1,6 @@
 from segment_anything import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 import os
+import torch
 
 from modules.mask_utils import *
 from modules.model_downloader import *
@@ -9,7 +10,7 @@ class SamInference:
     def __init__(self):
         self.model = None
         self.model_path = f"models/sam_vit_h_4b8939.pth"
-        self.device = "cuda"
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.mask_generator = None
 
         # Tuable Parameters , All default values
