@@ -2,7 +2,7 @@
 torch
 --extra-index-url https://download.pytorch.org/whl/cu117
 torchvision
-git+https://github.com/facebookresearch/segment-anything.git
+segment-anything
 opencv-python
 pycocotools 
 matplotlib 
