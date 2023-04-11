@@ -5,6 +5,8 @@ You can use it as an tool for Layer Divider
 
 ![Layer-Divider-WebUI](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot.png)
 
+![Layer-Divider-WebUI2](https://raw.githubusercontent.com/jhj0517/Layer-Divider-WebUI/master/screenshot2.png)
+
 # Installation and Running
 ## Prerequisite
 you need to have `python` 3.8 - 3.10.
