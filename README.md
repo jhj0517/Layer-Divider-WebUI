@@ -7,12 +7,12 @@ You can use it as an tool for Layer Divider
 
 # Installation and Running
 ## Prerequisite
-you need to have `git`.
+you need to have `python` 3.8 - 3.10.
 
-Please follow the links below to install the necessary software:
-- git : [https://git-scm.com/downloads](https://git-scm.com/downloads)
+Please follow the links below to install it:
+- python : [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-make sure to add the `git` to your system PATH.
+make sure to add the `python` to your system PATH.
 
 ## Automatic Installation
 If you have satisfied the prerequisite above, you are now ready to start WebUI.
