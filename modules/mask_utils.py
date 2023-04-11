@@ -80,6 +80,7 @@ def insert_psd_layer(psd, image_data, layer_name, blending_mode):
 
 def save_psd(input_image_data, layer_data, layer_names, blending_modes):
     psd_file = pytoshop.core.PsdFile(num_channels=3, height=input_image_data.shape[0], width=input_image_data.shape[1])
+    psd_file.layer_and_mask_info.layer_info.layer_records.clear()
 
     for index, layer in enumerate(layer_data):
         psd_file = insert_psd_layer(psd_file, layer, layer_names[index], blending_modes[index])
