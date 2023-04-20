@@ -1,6 +1,8 @@
 import os
 import gradio as gr
 
+from modules.installation import install_packbits
+install_packbits()
 from modules import sam
 from modules.ui_utils import *
 from modules.html_constants import *

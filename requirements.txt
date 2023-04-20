@@ -9,4 +9,4 @@ matplotlib
 onnxruntime 
 onnx
 gradio
-pytoshop==1.2.0
+pytoshop==1.1.0
