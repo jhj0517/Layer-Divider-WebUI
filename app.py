@@ -36,7 +36,7 @@ class App:
             with gr.Row():
                 btn_generate = gr.Button("GENERATE", variant="primary")
             with gr.Row():
-                gallery_output = gr.Gallery(label="Output will be shown here", show_label=True, scale=8)
+                gallery_output = gr.Gallery(label="Output will be shown here", show_label=True, scale=8, columns=5)
                 btn_open_folder = gr.Button("📁\n(PSD)", scale=2)
 
             params = [nb_points_per_side, sld_pred_iou_thresh, sld_stability_score_thresh, nb_crop_n_layers,
