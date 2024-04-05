@@ -1,6 +1,6 @@
---extra-index-url https://download.pytorch.org/whl/cu117
+--extra-index-url https://download.pytorch.org/whl/cu121
 torch
---extra-index-url https://download.pytorch.org/whl/cu117
+--extra-index-url https://download.pytorch.org/whl/cu121
 torchvision
 segment-anything
 opencv-python
