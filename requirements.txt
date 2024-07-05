@@ -9,4 +9,4 @@ matplotlib
 onnxruntime 
 onnx
 gradio
-pytoshop==1.1.0
+git+https://github.com/jhj0517/forked-pytoshop.git
