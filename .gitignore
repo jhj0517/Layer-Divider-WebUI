@@ -2,3 +2,4 @@ models/
 venv/
 outputs/
 modules/__pycache__/
+.idea/
