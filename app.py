@@ -18,7 +18,7 @@ class App:
         with self.app:
             with gr.Row():
                 gr.Markdown(PROJECT_NAME, elem_id="md_project")
-            with gr.Row().style(equal_height=True):  # bug https://github.com/gradio-app/gradio/issues/3202
+            with gr.Row(equal_height=True):
                 with gr.Column(scale=5):
                     img_input = gr.Image(label="Input image here")
                 with gr.Column(scale=5):
@@ -36,9 +36,8 @@ class App:
             with gr.Row():
                 btn_generate = gr.Button("GENERATE", variant="primary")
             with gr.Row():
-                gallery_output = gr.Gallery(label="Output will be shown here", show_label=True).style(columns=5,
-                                                                                                      height="auto")
-                btn_open_folder = gr.Button("📁\n(PSD)").style(full_width=False)
+                gallery_output = gr.Gallery(label="Output will be shown here", show_label=True, scale=8, columns=5)
+                btn_open_folder = gr.Button("📁\n(PSD)", scale=2)
 
             params = [nb_points_per_side, sld_pred_iou_thresh, sld_stability_score_thresh, nb_crop_n_layers,
                       nb_crop_n_points_downscale_factor, nb_min_mask_region_area]
