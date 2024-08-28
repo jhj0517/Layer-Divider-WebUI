@@ -1,4 +1,13 @@
 # Layer-Divider-WebUI
+----------------------------------
+**Deprecation warning**
+
+This project uses [sam](https://github.com/facebookresearch/segment-anything) instead of [sam-v2](https://github.com/facebookresearch/segment-anything-2), so it will be archived soon.
+
+You can try the new [sam2-playground](https://github.com/jhj0517/sam2-playground) repository instead, there's also a feature to segment a video.
+
+----------------------------------
+
 A Gradio-based browser interface for [SAM](https://github.com/facebookresearch/segment-anything). (Segment-Anything Model)
 
 You can use it as an tool for Layer Divider
