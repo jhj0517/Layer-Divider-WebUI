@@ -1,7 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
-torch
+torch==2.3.1
 --extra-index-url https://download.pytorch.org/whl/cu121
-torchvision
+torchvision==0.18.1
 segment-anything
 opencv-python
 pycocotools 
